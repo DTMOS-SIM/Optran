@@ -1,38 +1,34 @@
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Options](https://github.com/DTMOS-SIM/Options_Modelling/assets/20501275/fa9ba51a-c1b6-4696-b117-246454bf5512)
 
 
-# Project Title
+# Financial Modelling In Options Pricing
 
-A brief description of what this project does and who it's for
-
-
-## Appendix
-
-Any additional information goes here
+This project encapsulated the basic understanding of how numerical designs can integrate into options pricing and valuation through close form solution using Classic Black Scholes Model. The extension toward on volatility surface design further enhances the effectiveness in archiving sharper results with strong support in findings.
 
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@Kenny Sim](https://www.github.com/DTMOS-SIM)
+  
 
+## Contributors
 
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
+- [@Shawn Khor](https://www.github.com/ShawnKhor)
 
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to have the following environment variables to your .env file
 
-`API_KEY`
+** This table will be updated for future versions
 
-`ANOTHER_API_KEY`
+| Package | Version    | Dependencies    |
+| :---:   | :---: | :---: |
+| `python` | 3.10   | -   |
+| `math` | latest   | python@3.10   |
+| `typing` | latest   | python@3.10   |
+| `scipy` | latest   | python@3.10   |
 
 
 ## Deployment
@@ -40,54 +36,47 @@ To run this project, you will need to add the following environment variables to
 To deploy this project run
 
 ```bash
-  npm run deploy
+  python@3.10 main.py
 ```
 
 
 ## Optimizations
 
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
+- Partial polymorphic design enhancments for different forms of exotic option types
+- Segregated utilities functions from main
 
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
-
-## Demo
-
-Insert gif or link to demo
+- Options agnostics testing and valuation
+- Modular volitility instantiation
+- Test Driven Development
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+Kenny's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sim-kim-wee-a79b50124/)
+
+Shawn's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shawnkhor/)
 
 
 ## Other Common Github Profile Sections
-👩‍💻 I'm currently working on...
+👩‍💻 Currently working on...
 
-🧠 I'm currently learning...
+- [ ] Extending to more exotic options: Quanto/One Touch Barrier etc...
+- [ ] Attaching API endpoint (Binance, Reuters, etc.)
+- [ ] Possibility of a Futures profile in this projects
+- [ ] Spot discretization with finite differencing in PDEs for certain BS models
 
 👯‍♀️ I'm looking to collaborate on...
 
-🤔 I'm looking for help with...
-
-💬 Ask me about...
-
-📫 How to reach me...
-
-😄 Pronouns...
+- [ ] Hedging Instruments to merge with pricing and valuation tools
 
 ⚡️ Fun fact...
 
+- Didn't knew this project was doable until now.
 
 ## 🛠 Skills
-Javascript, HTML, CSS...
+Python (No more no less, unless your software engineering skills are mind-blowingly 'powderful'.....)
 
 
 ## License
