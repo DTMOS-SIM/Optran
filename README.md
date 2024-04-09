@@ -1,10 +1,31 @@
+# Financial Modelling In Options Pricing
+
+This project encapsulated the basic understanding of how numerical designs can integrate into options pricing and valuation through close form solution using Classic Black Scholes Model. The extension toward on volatility surface design further enhances the effectiveness in archiving sharper results with strong support in findings.
 
 ![Options](https://github.com/DTMOS-SIM/Options_Modelling/assets/20501275/fa9ba51a-c1b6-4696-b117-246454bf5512)
 
 
-# Financial Modelling In Options Pricing
+<div align="center">
 
-This project encapsulated the basic understanding of how numerical designs can integrate into options pricing and valuation through close form solution using Classic Black Scholes Model. The extension toward on volatility surface design further enhances the effectiveness in archiving sharper results with strong support in findings.
+[![stars - Options_Modelling](https://img.shields.io/github/stars/DTMOS-SIM/Options_Modelling?style=social)](https://github.com/DTMOS-SIM/Options_Modelling)
+[![forks - Options_Modelling](https://img.shields.io/github/forks/DTMOS-SIM/Options_Modelling?style=social)](https://github.com/DTMOS-SIM/Options_Modelling)
+
+[![DTMOS-SIM - Options_Modelling](https://img.shields.io/static/v1?label=DTMOS-SIM&message=Options_Modelling&color=blue&logo=github)](https://github.com/DTMOS-SIM/Options_Modelling "Go to GitHub repo")
+[![GitHub tag](https://img.shields.io/github/tag/DTMOS-SIM/Options_Modelling?include_prereleases=&sort=semver&color=blue)](https://github.com/DTMOS-SIM/Options_Modelling/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![issues - Options_Modelling](https://img.shields.io/github/issues/DTMOS-SIM/Options_Modelling)](https://github.com/DTMOS-SIM/Options_Modelling/issues)
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-yellow?)](https://github.com/DTMOS-SIM/Options_Modelling/generate)
+[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-pink?)](https://dtmos-sim.github.io/Options_Modelling/)
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-purple?)](/docs/ "Go to project documentation")
+
+</div>
+
+---
+
+### :fire: My Stats :
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=DTMOS-SIM&theme=light&background=FFFFFF)](https://git.io/streak-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DTMOS-SIM&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 
 ## Authors
@@ -54,6 +75,7 @@ To deploy this project run
 
 
 ## 🔗 Links
+
 Kenny's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sim-kim-wee-a79b50124/)
 
 Shawn's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shawnkhor/)
@@ -81,5 +103,5 @@ Python (No more no less, unless your software engineering skills are mind-blowin
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+Released under [MIT](/LICENSE) by [@DTMOS-SIM](https://github.com/DTMOS-SIM).
 
