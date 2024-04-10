@@ -36,6 +36,7 @@ This project encapsulated the basic understanding of how numerical designs can i
 ## Contributors
 
 - [@Shawn Khor](https://www.github.com/ShawnKhor)
+- [@Presad Dharmane](https://github.com/Prasad-99)
 
 
 ## Environment Variables
