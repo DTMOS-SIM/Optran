@@ -4,7 +4,6 @@ This project encapsulated the basic understanding of how numerical designs can i
 
 ![Options](https://github.com/DTMOS-SIM/Options_Modelling/assets/20501275/fa9ba51a-c1b6-4696-b117-246454bf5512)
 
-
 <div align="center">
 
 [![stars - Options_Modelling](https://img.shields.io/github/stars/DTMOS-SIM/Options_Modelling?style=social)](https://github.com/DTMOS-SIM/Options_Modelling)
@@ -36,7 +35,7 @@ This project encapsulated the basic understanding of how numerical designs can i
 ## Contributors
 
 - [@Shawn Khor](https://www.github.com/ShawnKhor)
-- [@Presad Dharmane](https://github.com/Prasad-99)
+- [@Prasad Dharmane](https://github.com/Prasad-99)
 
 
 ## Environment Variables
@@ -81,6 +80,7 @@ Kenny's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?styl
 
 Shawn's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shawnkhor/)
 
+Prasad's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prasad-dhamane/)
 
 ## Other Common Github Profile Sections
 👩‍💻 Currently working on...
