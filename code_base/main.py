@@ -21,3 +21,11 @@ if __name__ == "__main__":
     spread_opt.SpreadOption(2, 140, PayoffType.Call)
     tarf_opt.Tarf(2, 140, PayoffType.Call)
     '''
+
+    '''
+    |--------------------------------------------------------- Dupire Volatility Simulation ---------------------------------------------------------|
+    S, r, q = 1.25805, 0.01, 0.0
+    iv = createTestImpliedVol(S, r, q, 1.0)
+    plotTestImpliedVolSurface(iv)
+    pdeCalibReport(S, r, q, iv)
+    '''
