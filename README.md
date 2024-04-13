@@ -36,6 +36,7 @@ This project encapsulated the basic understanding of how numerical designs can i
 
 - [@Shawn Khor](https://www.github.com/ShawnKhor)
 - [@Prasad Dharmane](https://github.com/Prasad-99)
+- [@Devansh Gupta](https://github.com/Lordnhell)
 
 
 ## Environment Variables
@@ -63,14 +64,14 @@ To deploy this project run
 
 ## Optimizations
 
-- Partial polymorphic design enhancments for different forms of exotic option types
+- Partial polymorphic design enhancements for different forms of exotic option types
 - Segregated utilities functions from main
 
 
 ## Features
 
 - Options agnostics testing and valuation
-- Modular volitility instantiation
+- Modular volatility instantiation
 - Test Driven Development
 
 
@@ -82,12 +83,14 @@ Shawn's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?styl
 
 Prasad's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prasad-dhamane/)
 
+Devansh's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dg0509/)
+
 ## Other Common Github Profile Sections
 👩‍💻 Currently working on...
 
 - [ ] Extending to more exotic options: Quanto/One Touch Barrier etc...
 - [ ] Attaching API endpoint (Binance, Reuters, etc.)
-- [ ] Possibility of a Futures profile in this projects
+- [ ] Possibility of a Futures profile in these projects
 - [ ] Spot discretization with finite differencing in PDEs for certain BS models
 
 👯‍♀️ I'm looking to collaborate on...
@@ -96,7 +99,7 @@ Prasad's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?sty
 
 ⚡️ Fun fact...
 
-- Didn't knew this project was doable until now.
+- Didn't know this project was doable until now.
 
 ## 🛠 Skills
 Python (No more no less, unless your software engineering skills are mind-blowingly 'powderful'.....)
