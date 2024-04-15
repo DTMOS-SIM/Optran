@@ -1,6 +1,6 @@
 # Financial Modelling In Options Pricing
 
-This project encapsulated the basic understanding of how numerical designs can integrate into options pricing and valuation through close form solution using canonical Black Scholes model. The extension toward on volatility surface design further enhances the effectiveness in archiving sharper results with strong support in findings.
+This project encapsulated the basic understanding of how numerical designs can integrate into options pricing and valuation through close form solution using canonical Black Scholes model. The extension toward on volatility surface design further enhances the effectiveness in achieving sharper results with stronger support in findings.
 
 ![Options](https://github.com/DTMOS-SIM/Options_Modelling/assets/20501275/fa9ba51a-c1b6-4696-b117-246454bf5512)
 
