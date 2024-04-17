@@ -9,7 +9,7 @@ from services.options import (
     tarf_options as tarf_opt
 )
 
-from services.binomial_trees import binomial_tree_pricer
+from code_base.services.pricers.binomial_tree_pricer import BinomialTreePricer
 
 if __name__ == "__main__":
     '''

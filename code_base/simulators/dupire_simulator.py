@@ -29,11 +29,11 @@ def pdeCalibReport(S0, r, q, impliedVol):
     for i in range(len(ds)):
         for j in range(len(ts)):
             T = ts[j]
-            K = strike_from_delta(S0, r, 0, T, iv.Vol(T, S0 * math.exp(r * T)), ds[i], PayoffType.Put)
+            K = strike_from_delta(S0, r, 0, T, lv.Vol(T, S0 * math.exp(r * T)), ds[i], PayoffType.Put)
             payoff = PayoffType.Put
             trade = european_options.EuropeanOption("ASSET1", T, K, payoff)
             vol = impliedVol.Vol(ts[j], K)
-            bs = bsPrice(S0, r, q, vol, T, K, payoff)
+            bs = black_scholes_pricer(S0, r, q, vol, T, K, payoff)
             pde = pde_pricer_x(S0, r, q, lv, max(50, int(50 * T)), max(50, int(50 * T)), 0.5, trade)
             # normalize error in 1 basis point per 1 unit of stock
             err[i, j] = math.fabs(bs - pde) / S0 * 10000
