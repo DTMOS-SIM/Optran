@@ -37,6 +37,7 @@ This project encapsulated the basic understanding of how numerical designs can i
 - [@Shawn Khor](https://www.github.com/ShawnKhor)
 - [@Prasad Dharmane](https://github.com/Prasad-99)
 - [@Devansh Gupta](https://github.com/Lordnhell)
+- [@Syai](https://github.com/SigmaRhoZeta)
 
 
 ## Environment Variables
@@ -84,6 +85,8 @@ Shawn's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?styl
 Prasad's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prasad-dhamane/)
 
 Devansh's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dg0509/)
+
+Syai's Profile - [![linkedin] ()]
 
 ## Other Common Github Profile Sections
 👩‍💻 Currently working on...
