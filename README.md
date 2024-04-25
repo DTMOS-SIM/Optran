@@ -1,6 +1,6 @@
 # Financial Modelling In Options Pricing
 
-This project encapsulated the basic understanding of how numerical designs can integrate into options pricing and valuation through close form solution using Classic Black Scholes Model. The extension toward on volatility surface design further enhances the effectiveness in archiving sharper results with strong support in findings.
+This project encapsulated the basic understanding of how numerical designs can integrate into options pricing and valuation through close form solution using canonical Black Scholes model. The extension toward on volatility surface design further enhances the effectiveness in achieving sharper results with stronger support in findings.
 
 ![Options](https://github.com/DTMOS-SIM/Options_Modelling/assets/20501275/fa9ba51a-c1b6-4696-b117-246454bf5512)
 
@@ -37,6 +37,7 @@ This project encapsulated the basic understanding of how numerical designs can i
 - [@Shawn Khor](https://www.github.com/ShawnKhor)
 - [@Prasad Dharmane](https://github.com/Prasad-99)
 - [@Devansh Gupta](https://github.com/Lordnhell)
+- [@Syai](https://github.com/SigmaRhoZeta)
 
 
 ## Environment Variables
@@ -84,6 +85,8 @@ Shawn's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?styl
 Prasad's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prasad-dhamane/)
 
 Devansh's Profile - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dg0509/)
+
+Syai's Profile - [![linkedin] ()]
 
 ## Other Common Github Profile Sections
 👩‍💻 Currently working on...
