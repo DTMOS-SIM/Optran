@@ -46,6 +46,7 @@ class SABRModel(object):
             # Scaling factor for non atm vol formula
             z = (self.nu / self.alpha) * ((self.forward_rate * X) ** (0.5 * (1 - self.beta))) * np.log(
                 self.forward_rate / X)
+
             # Scaling factor for non atm vol formula
             zhi = np.log((((1 - 2 * self.rho * z + z * z) ** 0.5) + z - self.rho) / (1 - self.rho))
 
@@ -91,7 +92,6 @@ class SABRModel(object):
 
 
     '''
-    |-------------------------------------
     start = date_count_df.Start
     tenor = date_count_df.Tenor
     

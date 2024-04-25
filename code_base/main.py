@@ -1,4 +1,5 @@
 from infrastructure.options_typings import PayoffType
+from services.calibrators.model_calib.heston_model import HestonModel
 
 from services.options import (
     american_options as amer_opt,
@@ -12,6 +13,20 @@ from services.options import (
 from code_base.services.pricers.binomial_tree_pricer import BinomialTreePricer
 
 if __name__ == "__main__":
+    S0 = 100  # initial asset price
+    K = 100  # strike
+    v0 = 0.1  # initial variance
+    r = 0.03  # risk free rate
+    kappa = 1.5768  # rate of mean reversion of variance process
+    theta = 0.0398  # long-term mean variance
+    sigma = 0.3  # volatility of volatility
+    lamda = 0.575  # risk premium of variance
+    rho = -0.5711  # correlation between variance and stock process
+    tau = 1.  # time to maturity
+
+    HestonModel = HestonModel(S0, K, v0, r, kappa, theta, sigma, lamda, rho, tau)
+    result = HestonModel.price()
+    print(result)
     '''
     |--------------------------------------------------------- Implement the main function ---------------------------------------------------------|
     amer_opt.AmericanOptions(2,140,PayoffType.Call)
