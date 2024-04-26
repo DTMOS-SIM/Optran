@@ -45,6 +45,7 @@ class HestonModel(object):
         self._initial_variance: float = initial_variance
         self._lamda: float = lamda
 
+          
     @staticmethod
     def define_heston_features(phi: float, kappa: float, theta: float, sigma: float, rho: float, lamda: float, maturity: float, interest: float, initial_variance: float, spot: float):
         # constants
@@ -62,6 +63,7 @@ class HestonModel(object):
         g = (_b - rspi + _d) / (_b - rspi - _d)
 
         # calculate characteristic function by components
+
         exp1 = np.exp(interest * phi * 1j * maturity)
         term2 = spot ** (phi * 1j) * ((1 - g * np.exp(_d * maturity)) / (1 - g)) ** (
                 -2 * _a / sigma ** 2)
@@ -86,6 +88,7 @@ class HestonModel(object):
 
     def calibrate(self, squared_error, params):
         x0 = np.array([param["x0"] for key, param in params.items()])
+
         heston_bounds = [param["lbub"] for key, param in params.items()]
 
         result = minimize(squared_error, x0, tol=1e-3, method='SLSQP', options={'maxiter': 1e4}, bounds=heston_bounds)
